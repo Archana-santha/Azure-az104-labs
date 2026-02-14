@@ -4,7 +4,7 @@ Bicep templates to deploy Azure resources using Infrastructure as Code.
 
 ### Resource Group Deployment
 
-File: [bicep/01-rg-bicep/rg.bicep](./bicep/01-rg-bicep/rg.bicep)
+![bicep](./bicep/01-rg-bicep/rg.bicep)
 
 This template deploys a Resource Group at subscription scope.
 
