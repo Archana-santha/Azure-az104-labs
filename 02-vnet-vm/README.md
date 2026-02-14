@@ -32,7 +32,11 @@ This Windows virtual machine is used for lab/testing purposes.
 - Inbound port: 3389  
 - Authentication: Username/Password  
 
-### Screenshot
+### Screenshot (VM)
+![VM Running](vmdemo1.jpg)
+
+### Screenshot (VM Stopped)
+![VM Stopped](vmstopped.jpg)
 
 ### Notes
 - VM is deployed inside the above VNet.
