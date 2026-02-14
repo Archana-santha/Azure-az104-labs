@@ -8,6 +8,8 @@ Create and understand Azure Resource Groups and use them to organize cloud resou
 2. Created a new Resource Group named `rg-demo-lab`
 3. Selected region: East US
 4. Reviewed and created the Resource Group
+## Screenshot
+![Resource Group Overview](../rgdemolab.png)
 
 ## What I Learned
 - Resource Groups are used to logically organize Azure resources
