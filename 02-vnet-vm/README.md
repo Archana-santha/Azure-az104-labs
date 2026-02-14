@@ -12,6 +12,7 @@ This Virtual Network was created to host the virtual machines for testing and le
 - Subnet: default (10.0.0.0/24)
 
 ### Screenshot
+vnetlab.jpg
 
 ---
 
