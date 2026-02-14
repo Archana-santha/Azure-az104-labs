@@ -9,8 +9,7 @@ Create and understand Azure Resource Groups and use them to organize cloud resou
 3. Selected region: East US
 4. Reviewed and created the Resource Group
 ## Screenshot
-![Resource Group Overview](../rgdemolab.png)
-
+![Resource Group Overview](rgdemolab.png)
 ## What I Learned
 - Resource Groups are used to logically organize Azure resources
 - All resources in a project can be managed together
