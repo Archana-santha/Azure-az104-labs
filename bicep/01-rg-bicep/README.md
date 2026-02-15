@@ -12,3 +12,5 @@ This template deploys a Resource Group at subscription scope.
 
 ```bash
 az deployment sub create --location westus2 --template-file bicep/rg.bicep
+
+**### Screenshot**
