@@ -10,7 +10,7 @@ This template deploys a Resource Group at subscription scope.
 
 ### Screenshot
 ![Resource group deployment](rgbicep.jpg)
-
+Successfully created resource group using bicep.
 ### Deploy using Azure CLI
 
 ```bash
