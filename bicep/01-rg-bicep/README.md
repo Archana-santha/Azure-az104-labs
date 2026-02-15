@@ -9,7 +9,8 @@ File: [rg.bicep](rg.bicep)
 This template deploys a Resource Group at subscription scope.
 
 ### Screenshot
-[rgbicep.jpg](rgbicep.jpg)
+![Resource Group Deployment](rgbicep.jpg)
+
 
 ### Deploy using Azure CLI
 
