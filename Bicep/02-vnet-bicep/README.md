@@ -28,7 +28,9 @@ Subnet Prefix: 10.0.1.0/24
 - vnet.bicep file
 
 ## Screenshot
+![vnet bicep code](vnetbicep.jpg)
 
+![vnet deployment](vnetbiceplab.jpg)
 
 ---
 
