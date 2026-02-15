@@ -28,9 +28,35 @@ Subnet Prefix: 10.0.1.0/24
 - vnet.bicep file
 
 ## Screenshot
+Bicep template used:
 ![vnet bicep code](vnetbicep.jpg)
+
+The output confirms the successful creation of:
+
+- Virtual Network: vnet-bicep-lab
+- Subnet: subnet-web
+
+---
+
 
 ![vnet deployment](vnetbiceplab.jpg)
 
 ---
+
+
+---
+
+# Deployment Outcome
+
+The Virtual Network and subnet were successfully deployed using Bicep and Azure PowerShell within the resource group `rg-bicep-lab`.
+
+This lab demonstrates:
+
+- Practical implementation of Infrastructure as Code (IaC)
+- Azure networking fundamentals
+- Resource deployment using PowerShell
+- Version-controlled cloud infrastructure
+
+---
+
 
