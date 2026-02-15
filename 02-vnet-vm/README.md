@@ -103,3 +103,13 @@ This demonstrates the behavior of **Network Security Groups (NSGs)** when creati
 
 - Azure NSG documentation: [https://learn.microsoft.com/azure/virtual-network/network-security-groups-overview](https://learn.microsoft.com/azure/virtual-network/network-security-groups-overview)  
 
+# Manual RDP Connection
+
+ 1. Find vmdemo1's Public IP Copy the public IP address.
+
+ 2. Open Remote Desktop on my local machine, type mstsc, and press Enter.
+
+ 3. Paste the public IP you copied from the VM. Click Connect.
+
+ 4. Enter my VM's username and password.
+Successfully connected to vmdemo1.
