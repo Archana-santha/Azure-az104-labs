@@ -21,7 +21,7 @@ This lab documents the creation of a Linux VM in Azure using **Bicep**, along wi
 ## Steps Followed
 
 ### 1. Create Bicep file (`vmbicep.bicep`)
-* [vmbicep.bicep](vmbicep.bicep)
+* ![vmbicep.bicep](vmbicep.bicep)
 
 * Created VM with:
 
@@ -38,7 +38,7 @@ This lab documents the creation of a Linux VM in Azure using **Bicep**, along wi
 
 ---
 
-### 3. Deploy VM using Bicep
+### 2. Deploy VM using Bicep
 
 ```powershell
 az deployment group create --resource-group rg-bicep-lab --template-file vmbicep.bicep
@@ -52,7 +52,7 @@ az deployment group create --resource-group rg-bicep-lab --template-file vmbicep
 
 ---
 
-### 4. Get Public IP
+### 3. Get Public IP
 
 ```powershell
 az vm list-ip-addresses --name vmbicep --resource-group rg-bicep-lab --output table
@@ -67,7 +67,7 @@ vmbicep    40.65.89.253     10.0.0.4
 
 ---
 
-### 5. Open SSH (fix NSG if needed)
+### 4. Open SSH (fix NSG if needed)
 
 If you get `Connection closed` errors:
 
@@ -79,7 +79,7 @@ az network nsg rule create --resource-group rg-bicep-lab --nsg-name vmbicep-nsg 
 
 ---
 
-### 6. SSH into VM
+### 5. SSH into VM
 
 ```bash
 ssh vmbicepadmin@40.65.89.253
@@ -96,7 +96,7 @@ vmbicepadmin@vmbicep:~$
 
 ---
 
-### 7. Common commands to test VM
+### 6. Common commands to test VM
 
 ```bash
 # Check disk space
@@ -115,7 +115,7 @@ sudo apt install -y git curl
 
 ---
 
-### 8. Learnings / Mistakes
+### 7. Learnings / Mistakes
 
 * **Mistakes made:**
 
@@ -132,7 +132,8 @@ sudo apt install -y git curl
   * SSH password input is hidden by design
 
 ---
-
+### 8. ScreenShot
+![vmbicep](vmbicep.jpg)
 ### 9. Summary
 
 * VM successfully deployed using **Bicep**
