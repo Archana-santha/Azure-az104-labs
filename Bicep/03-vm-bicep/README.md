@@ -133,7 +133,7 @@ sudo apt install -y git curl
 
 ---
 ### 8. ScreenShot
-![vmbicep](vmbicep.jpg)
+![vmbicep image](vmbicep.jpg)
 ### 9. Summary
 
 * VM successfully deployed using **Bicep**
