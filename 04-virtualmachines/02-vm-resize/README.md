@@ -1,4 +1,4 @@
-# 🔄 Azure VM Resize – SKU Change & Performance Comparison
+# 🔄 Azure VM Resize 
 
 ## 📌 Objective
 
