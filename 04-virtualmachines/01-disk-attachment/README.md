@@ -26,6 +26,7 @@ To attach a new managed data disk to an existing Azure Linux Virtual Machine, co
 4. Clicked **Apply**
 
 ✔️ Disk successfully attached to VM.
+
 ![vm disk](linux-vm disks.png)
 ---
 
