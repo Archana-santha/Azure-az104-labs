@@ -59,7 +59,7 @@ Configured bidirectional peering:
 
 ---
 
-## 🧪 Step 4: Connectivity Test (Issue Encountered)
+##  Step 4: Connectivity Test (Issue Encountered)
 
 From vm-dev, attempted to ping the private IP of vm-prod.
 
@@ -79,7 +79,6 @@ I learned that:
 - Windows Firewall inside the VM blocks ICMP by default.
 - Security rules must explicitly allow required traffic.
 
----
 
 ## Step 5: Troubleshooting & Fix
 
