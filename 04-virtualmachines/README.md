@@ -28,7 +28,7 @@ To deploy and manage Windows and Linux Virtual Machines in Azure and understand 
 - RDP uses port 3389
 - Public IP allows remote connectivity
 - NSG must allow inbound RDP
-
+![windows vm](vm-dev.png)
 ---
 
 ## 🐧 Linux VM Deployment
@@ -40,14 +40,14 @@ To deploy and manage Windows and Linux Virtual Machines in Azure and understand 
 ```bash
 ssh -i privatekey.pem username@public-ip
 ```
-
+![linux vm](linux-vm.png)
 ### Issues Faced:
 
 - Selected wrong marketplace image (paid offer)
 - Fixed by selecting official Canonical image
 - Faced "Permission denied (publickey)" error
 - Resolved by using correct admin username
-
+![linux](linux.png)
 ---
 
 ## 🔐 Security Concepts Practiced
