@@ -27,7 +27,7 @@ To attach a new managed data disk to an existing Azure Linux Virtual Machine, co
 
 ✔️ Disk successfully attached to VM.
 
-![linux-vm disks](linux-vm disks.png)
+![linux-vm disks](linux-vm-disks.png)
 ---
 
 ## 🟢 Step 2 – Verify Disk in Linux
@@ -39,7 +39,7 @@ lsblk
 ```
 
 Output showed:
-
+![diskverified](diskverified.png)
 ```
 sdb   10G   disk
 ```
@@ -74,7 +74,7 @@ lsblk
 ```
 
 Result:
-
+![disk partition](diskpartition.png)
 ```
 sdb
 └─sdb1
@@ -117,7 +117,7 @@ df -h
 ```
 
 Output confirmed:
-
+![mount disk](mountdisk.png)
 ```
 /dev/sdb1   9.8G   ...   /datadisk
 ```
