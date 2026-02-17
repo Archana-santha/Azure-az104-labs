@@ -123,10 +123,3 @@ Steps:
 
 ---
 
-## 🚀 Skills Demonstrated
-
-- Azure VM lifecycle management
-- VM SKU selection strategy
-- Cost vs performance evaluation
-- Infrastructure modification in Azure
-- Production-aware resizing procedure
