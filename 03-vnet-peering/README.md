@@ -17,7 +17,7 @@ To design and configure two separate virtual networks (Prod and Dev), deploy vir
 - Address Space: 10.1.0.0/16
 - Subnet: subnet-dev (10.1.1.0/24)
 - Region: Same region as vnet-prod
-
+![vnet dev](vnet-dev.png)
 ✔️ Ensured address spaces were not overlapping.  
 ✔️ Both VNets created successfully.
 
@@ -30,12 +30,14 @@ To design and configure two separate virtual networks (Prod and Dev), deploy vir
 - Subnet: subnet-prod
 - OS: Windows Server
 - Public IP: Enabled (for RDP access)
+![vm prod](vm-prod.png)
 
 ### 🔹 vm-dev
 - Deployed inside: vnet-dev
 - Subnet: subnet-dev
 - OS: Windows Server
 - Public IP: Enabled (for RDP access)
+![vm dev](vm-dev.png)
 
 ✔️ Successfully connected to both VMs using RDP.  
 ✔️ Verified private IP addresses assigned correctly.
@@ -56,7 +58,7 @@ Configured bidirectional peering:
 - Use remote gateways: Disabled
 
 ✔️ Peering status showed **Connected**.
-
+![peering](peering.png)
 ---
 
 ##  Step 4: Connectivity Test (Issue Encountered)
@@ -106,7 +108,7 @@ This rule enabled ICMP traffic between the peered virtual networks.
 - Successfully pinged from **vm-dev** to **vm-prod** using private IP address.
 - Verified that **VNet peering is functioning correctly**.
 - Confirmed private communication between VNets over the Azure backbone network.
-
+![ping](ping.png)
 ---
 
 ## 🎓 Key Learnings
