@@ -12,7 +12,7 @@ To design and configure two separate virtual networks (Prod and Dev), deploy vir
 - Address Space: 10.0.0.0/16
 - Subnet: subnet-prod (10.0.1.0/24)
 - Region: Same region as vnet-dev
-
+![vnet prod](vnet-prod.png)
 ### 🔹 vnet-dev
 - Address Space: 10.1.0.0/16
 - Subnet: subnet-dev (10.1.1.0/24)
