@@ -83,10 +83,7 @@ I learned that:
 ## Step 5: Troubleshooting & Fix
 
 ### 1️. Enabled ICMP in Windows Firewall
-
 Executed the following PowerShell command inside both VMs:
-
-```powershell
 New-NetFirewallRule -DisplayName "Allow ICMPv4-In" -Protocol ICMPv4 -Action Allow**
 
 ---
