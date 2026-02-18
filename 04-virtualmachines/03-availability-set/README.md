@@ -74,9 +74,12 @@ Configuration:
 ### Step 4 – Created VM 2
 
 - Name: vm-avset-02
-- Same configuration as VM 1
-- Added to the same Availability Set (demo-set)
-
+- Image: Windows (Windows Server 2025 Datacenter)
+- Size: Standard D2ls v5 (2 vcpus, 4 GiB memory)
+- Availability Option: Availability Set
+- Selected: demo-set
+- Virtual Network: Existing VNet
+- Subnet: Existing subnet
 ---
 
 ## 🔍 VM Placement Result
@@ -86,6 +89,7 @@ Configuration:
 | vm-avset-01 | 0 | 0 |
 | vm-avset-02 | 1 | 1 |
 
+![demo set](demo-set.png)
 ---
 
 ## 🧠 Concepts Learned
