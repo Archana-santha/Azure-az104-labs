@@ -167,8 +167,3 @@ Resolution:
 - VMs inside an Availability Set can use the same VNet and Subnet without IP conflict.
 
 ---
-
-## 📚 Interview Summary
-
-"I deployed two virtual machines inside an Availability Set in West US 2. Azure automatically distributed them across different Fault Domains and Update Domains to ensure high availability. During deployment, I handled regional vCPU quota limitations and resolved Marketplace image eligibility issues in a Free subscription environment."
-
