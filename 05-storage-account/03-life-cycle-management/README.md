@@ -32,13 +32,13 @@ Move-to-Cool-and-Delete
 #### Rule 2:
 - If blob **Last Modified > 90 days**
 - Then ➝ Delete the blob
-
+![life cycle rule](life-cycle-rule.png)
 ---
 
 ## ✅ Result
 
 Blobs automatically move to the Cool tier after 30 days of inactivity and are permanently deleted after 90 days.
-
+![life cycle](life-cycle.png)
 ---
 
 ## 💰 Cost Optimization Strategy
