@@ -25,13 +25,13 @@ To enable Blob Soft Delete and test restoration of deleted blobs to ensure data 
 4. Click **Show deleted blobs**.
 5. Select the deleted blob.
 6. Click **Restore**.
-
+![soft delete](soft-delete-enabled.png)
 ---
 
 ## ✅ Result
 
 The deleted blob was successfully restored within the retention period.
-
+![blob restored](blob-restore-success.png)
 ---
 
 ## 💡 Why Soft Delete Is Important
