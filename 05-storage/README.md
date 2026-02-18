@@ -29,7 +29,7 @@ This lab demonstrates the creation of a secure Azure Storage Account, private bl
 - Disabled public blob access
 - Added tag for environment classification
 
-(Screenshot here)
+![storage lab](storagelab1001.png)
 
 ---
 
@@ -37,14 +37,14 @@ This lab demonstrates the creation of a secure Azure Storage Account, private bl
 - Container Name: testcontainer
 - Public Access Level: Private (no anonymous access)
 
-(Screenshot here)
+![test container](testcontainer.png)
 
 ---
 
 ## 🔹 Step 3 – Upload Blob
 - Uploaded sample file to container
 
-(Screenshot here)
+![sample file](sample-file.png)
 
 ---
 
@@ -55,7 +55,7 @@ This lab demonstrates the creation of a secure Azure Storage Account, private bl
 
 ⚠️ Note: Account-level SAS does not work for direct container connection in Storage Explorer. Container-level SAS must include the container path.
 
-(Screenshot here – sensitive values masked)
+![sas token](sas-token.png)
 
 ---
 
@@ -63,7 +63,7 @@ This lab demonstrates the creation of a secure Azure Storage Account, private bl
 - Connected using SAS URL
 - Successfully accessed container without Azure AD authentication
 
-(Screenshot here)
+![storage explorer](storage-explorer.png)
 
 ---
 
@@ -80,8 +80,5 @@ This lab demonstrates the creation of a secure Azure Storage Account, private bl
 - No public blob access
 - Limited SAS permissions
 - Short expiry time
-
+  
 ---
-
-## 📌 Conclusion
-This lab demonstrates secure storage configuration and temporary access management using SAS, a common requirement in enterprise Azure environments.
