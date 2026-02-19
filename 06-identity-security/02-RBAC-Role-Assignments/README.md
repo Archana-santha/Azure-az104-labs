@@ -22,6 +22,7 @@ To assign built-in roles at different scopes and understand Role-Based Access Co
 ### Step 2: Assigned Contributor Role (Resource Group Level)
 - Assigned Contributor role to RG-Contributors group
 
+![contributor role at resource group level](contributorrole-at-resourcegroup.png)
 ---
 
 ## 🧠 Key Learnings
