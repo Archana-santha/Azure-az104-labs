@@ -19,6 +19,8 @@ To assign built-in roles at different scopes and understand Role-Based Access Co
 ### Step 1: Assigned Reader Role (Subscription Level)
 - Assigned Reader role to labuser1
 
+![reader role at subscription level](readerrole-at-subscription.png)
+
 ### Step 2: Assigned Contributor Role (Resource Group Level)
 - Assigned Contributor role to RG-Contributors group
 
