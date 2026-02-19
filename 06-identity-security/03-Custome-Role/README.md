@@ -24,11 +24,17 @@ Permissions Added:
 - Microsoft.Compute/virtualMachines/deallocate/action
 - Microsoft.Compute/virtualMachines/read
 
+![permission list](permission-list.png)
+
 Assignable Scope:
 Subscription
 
+![custome role](custom-role.png)
+
 ### Step 2: Assigned Custom Role
 - Assigned VM-Start-Stop-Operator role to labuser1
+
+![role assignments](role-assignments.png)
 
 ---
 
