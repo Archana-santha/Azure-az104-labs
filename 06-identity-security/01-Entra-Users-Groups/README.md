@@ -19,19 +19,26 @@ To create and manage users and security groups in Microsoft Entra ID and underst
 - labuser1
 - labuser2
 - Auto-generated passwords assigned
+  
 ![users created](users-created.png)
 ### Step 2: Created Security Group
 - Group Name: RG-Contributors
 - Group Type: Security
 - Membership Type: Assigned
+
 ![group created](group-created.png)
 ### Step 3: Added Users to Group
 - Added labuser1 and labuser2 as members
+
 ![members added](members-added.png)
+
 ### Step 4: Deleted & Restored User
 - Deleted labuser2
+
   ![deleted users](deleted-users.png)
+
 - Restored user from Deleted Users section
+
   ![restored users](restored-confirmation.png)
 ---
 
