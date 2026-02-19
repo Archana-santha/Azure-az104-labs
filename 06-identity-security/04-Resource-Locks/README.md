@@ -36,6 +36,8 @@ The goal of this lab was to:
 5. Selected lock type: **Delete (CanNotDelete)**.
 6. Clicked OK to create the lock.
 
+![delete lock](delete-lock.png)
+
 The lock was successfully applied.
 
 ---
@@ -48,6 +50,7 @@ Azure prevented the deletion and displayed an error stating that the resource is
 
 This confirmed that the lock was functioning correctly.
 
+![storage account cannot delete](storage-cannot-delete.png)
 ---
 
 ### Step 3 – Removed the Lock
