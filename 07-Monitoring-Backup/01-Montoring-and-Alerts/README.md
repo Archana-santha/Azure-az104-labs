@@ -97,7 +97,6 @@ To trigger the alert:
 - I generated CPU load inside the VM.
 
 ![cpu load](cpu-load.png)
-
 - After a few minutes, CPU usage crossed 80%.
 - Alert state changed to **Fired**.
 
