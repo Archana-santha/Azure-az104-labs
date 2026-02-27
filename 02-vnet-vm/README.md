@@ -97,11 +97,7 @@ This demonstrates the behavior of **Network Security Groups (NSGs)** when creati
 - Use NIC-level NSG only for VM-specific rules.  
 - Always check NSG + OS firewall + public IP for troubleshooting connectivity.
 
----
-
-## 5️⃣ References
-
-- Azure NSG documentation: [https://learn.microsoft.com/azure/virtual-network/network-security-groups-overview](https://learn.microsoft.com/azure/virtual-network/network-security-groups-overview)  
+---  
 
 ## Manual RDP Connection
 
